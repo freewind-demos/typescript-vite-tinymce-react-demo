@@ -7,6 +7,6 @@ type Props = {};
 export const Hello: FC<Props> = ({}) => {
     return <div className={'Hello'}>
         <h1>Hello TinyMCE</h1>
-        <Editor/>
+        <Editor />
     </div>;
 }
